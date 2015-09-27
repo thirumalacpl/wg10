@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.advs.manhummel.lpa" version="1.1.0">
-  <name>WATCHGUARD_exit</name>
-  <description>WATCHGUARD_exit</description>
+  <name>WATCHGUARD_v1.1</name>
+  <description>WATCHGUARD_v1.1</description>
   <author href="http://advicesync.com" email="support@advicesync.com">eImpressive</author>
   <content src="index.html"/>
   <preference name="orientation" value="default"/>
