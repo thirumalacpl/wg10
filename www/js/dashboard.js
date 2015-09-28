@@ -70,7 +70,7 @@ $("#completed_count").html(not_verified_counta.completed_count);
 
 $(document).off('click', '#new_verification').on('click', '#new_verification', function() {
 //alert(region+'refresh');
-$.ajax({url: 'http://staging.eimpressive.com/slimrestapi-watch/dashnewveri.php?region='+region,
+$.ajax({url: 'http://thewatchguard.com/beta/slimrestapi-watch/dashnewveri.php?region='+region,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -109,7 +109,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#inprogress').on('click', '#inprogress', function() {
 //alert(region+'inprogress');
-$.ajax({url: 'http://staging.eimpressive.com/slimrestapi-watch/dashinprogress.php?region='+region,
+$.ajax({url: 'http://thewatchguard.com/beta/slimrestapi-watch/dashinprogress.php?region='+region,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -150,7 +150,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#verified').on('click', '#verified', function() {
 //alert(region+'verified');
-$.ajax({url: 'http://staging.eimpressive.com/slimrestapi-watch/dashverified.php?region='+region,
+$.ajax({url: 'http://thewatchguard.com/beta/slimrestapi-watch/dashverified.php?region='+region,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -191,7 +191,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#not_verified').on('click', '#not_verified', function() {
 //alert(region+'verified');
-$.ajax({url: 'http://staging.eimpressive.com/slimrestapi-watch/dash_not_verified.php?region='+region,
+$.ajax({url: 'http://thewatchguard.com/beta/slimrestapi-watch/dash_not_verified.php?region='+region,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -231,7 +231,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#completed').on('click', '#completed', function() {
 //alert(region+'verified');
-$.ajax({url: 'http://staging.eimpressive.com/slimrestapi-watch/completed.php?region='+region,
+$.ajax({url: 'http://thewatchguard.com/beta/slimrestapi-watch/completed.php?region='+region,
   data:$('#newt').serialize(),
   type: 'post',                   
   async: 'true',
