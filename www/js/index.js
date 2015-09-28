@@ -6,7 +6,7 @@ $(document).on('pageshow', '#pageone', function(){
 $(document).off('click', '#submit').on('click', '#submit', function() { 
     if($('#username').val().length > 0 && $('#password').val().length > 0){
         console.log($('#check-watchuser').serialize());
-        $.ajax({url: 'http://staging.eimpressive.com/slimrestapi-watch/index.php',
+        $.ajax({url: 'http://thewatchguard.com/beta/slimrestapi-watch/index.php',
             data:$('#check-watchuser').serialize(),
             type: 'post',                   
             async: 'true',
