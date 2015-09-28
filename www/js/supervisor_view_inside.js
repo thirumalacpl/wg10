@@ -395,7 +395,7 @@ $(document).off('click', '#inprogress').on('click', '#inprogress', function() {
 //alert(verification_user_id);
 //alert(qualification_id);
 document.getElementById('remark').value = "";
-$.ajax({url: "http://staging.eimpressive.com/slimrestapi-watch/supervisor_status_to_inprogress.php?status_val="+status_val+"&verification_user_id="+verification_user_id+"&remark="+remark+"&qualification_id="+qualification_id+"&region_num="+region_num,
+$.ajax({url: "http://thewatchguard.com/beta/slimrestapi-watch/supervisor_status_to_inprogress.php?status_val="+status_val+"&verification_user_id="+verification_user_id+"&remark="+remark+"&qualification_id="+qualification_id+"&region_num="+region_num,
   data:$('#update_to_inprogress').serialize(),
   type: 'post',                   
   async: 'true',
