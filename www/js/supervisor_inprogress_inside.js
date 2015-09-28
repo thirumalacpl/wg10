@@ -435,7 +435,7 @@ var sdocument=$('input[type=file]').val().split('\\').pop();
 //alert(sdocument);
 
 
-$.ajax({url: "http://staging.eimpressive.com/slimrestapi-watch/supervisor_status_to_verified.php?status_val_inpro="+status_val_inpro+"&verification_user_id="+verification_user_id+"&remark_inpro="+remark_inpro+"&coordinator_id="+coordinator_id+"&region_num="+region_num+"&activity_log="+activity_log+"&sdocument="+sdocument,
+$.ajax({url: "http://thewatchguard.com/beta/slimrestapi-watch/supervisor_status_to_verified.php?status_val_inpro="+status_val_inpro+"&verification_user_id="+verification_user_id+"&remark_inpro="+remark_inpro+"&coordinator_id="+coordinator_id+"&region_num="+region_num+"&activity_log="+activity_log+"&sdocument="+sdocument,
   data:$('#update_to_verified_inpro').serialize(),
   type: 'post',                   
   async: 'true',
