@@ -132,7 +132,7 @@ $('#chatq').append(chatq);
 
 $(document).off('click', '#before_new_listupa').on('click', '#before_new_listupa', function() {
 //alert(region_num+'refresh');
-$.ajax({url: 'http://staging.eimpressive.com/slimrestapi-watch/count.php?region_num='+region_num,
+$.ajax({url: 'http://thewatchguard.com/beta/slimrestapi-watch/count.php?region_num='+region_num,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -246,7 +246,7 @@ var formData = $("#callAjaxForm").serialize();
 
 $.ajax({
   type: "POST",
-  url: "http://staging.eimpressive.com/slimrestapi-watch/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&sdocument="+sdocument+"&remarkg="+remarkg+"&qualification_id="+qualification_id,
+  url: "http://thewatchguard.com/beta/slimrestapi-watch/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&sdocument="+sdocument+"&remarkg="+remarkg+"&qualification_id="+qualification_id,
 
   data: formData,
   success: onSuccess,
